@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.firstdata.rashmi.rashmidemo"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.firstdata.ach.connectpay.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.firstdata.ach.connectpay.PayWithMyBankActivity"
+            android:label="@string/title_activity_pay_with_my_bank"
+            android:parentActivityName="com.firstdata.ach.connectpay.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.firstdata.ach.connectpay.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.firstdata.ach.connectpay.RegulerActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:label="@string/title_activity_reguler"
+            android:parentActivityName="com.firstdata.ach.connectpay.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.firstdata.ach.connectpay.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.firstdata.ach.connectpay.ExternalUrlActivity"
+            android:label="@string/title_activity_external_url" >
+        </activity>
+    </application>
+
+</manifest>

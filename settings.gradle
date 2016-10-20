@@ -1,0 +1,1 @@
+include ':app', ':firstapi', ':paywithmybank-android-sdk-release', ':firstapi-android-sdk'

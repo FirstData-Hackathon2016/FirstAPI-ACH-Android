@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ConnectPay Sample App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pay_with_my_bank">PayWithMyBankActivity</string>
+    <string name="title_activity_external_url">ExternalUrlActivity</string>
+    <string name="title_activity_reguler">RegulerActivity</string>
+    <string name="lbl_fName">Enter Your First Name:</string>
+    <string name="lbl_lName">Enter Your Last Name:</string>
+    <string name="lbl_accountNumber">Enter Your Account Number:</string>
+    <string name="lbl_routingNumber">Enter Your Routing Number:</string>
+</resources>

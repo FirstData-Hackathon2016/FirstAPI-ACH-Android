@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('paywithmybank-android-sdk-release.aar'))
