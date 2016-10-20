@@ -2,7 +2,11 @@
 
 ###Steps
 
-Add the ConnectPay-Android.aar to your project
+Add firstapi-android-sdk.aar and paywithmybank-android-sdk-release.aar into your project
+```
+ compile project(':firstapi-android-sdk')
+ compile project(':paywithmybank-android-sdk-release')
+ ```
 
 Connect pay SDK supports two type of enrollment flows
 
