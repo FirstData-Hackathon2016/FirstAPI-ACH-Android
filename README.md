@@ -18,7 +18,7 @@ Connect pay SDK supports two type of enrollment flows
 ##Initializing the SDK
 
 ```
--  FirstApi firstApi = FirstApi(String apiKey, String secret, String token);
+-  FirstApi firstApi = FirstApi();
 
 ```
 Once you initialized the sdk, below operations can be called
