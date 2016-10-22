@@ -26,7 +26,7 @@
                 android:value="com.firstdata.ach.connectpay.MainActivity" />
         </activity>
         <activity
-            android:name="com.firstdata.ach.connectpay.RegulerActivity"
+            android:name="com.firstdata.ach.connectpay.RegularActivity"
             android:windowSoftInputMode="stateAlwaysHidden"
             android:label="@string/title_activity_reguler"
             android:parentActivityName="com.firstdata.ach.connectpay.MainActivity" >

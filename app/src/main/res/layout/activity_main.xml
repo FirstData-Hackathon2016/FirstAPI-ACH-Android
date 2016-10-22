@@ -1,29 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/tabcontent"
-    android:layout_alignParentBottom="true"
+    android:layout_height="fill_parent"
     tools:context="com.firstdata.rashmi.rashmidemo.com.firstdata.ach.connectpay.MainActivity">
 
-
     <Button
-        android:id="@+id/payRegulerBttn"
+        android:id="@+id/payRegularBttn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-
-        android:layout_weight="1"
-        android:text="Reguler Enrollment" />
+        android:text="Regular Enrollment"/>
 
     <Button
         android:id="@+id/payPWMBBttn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_below="@+id/payRegulerBttn"
-        android:layout_weight="1"
-        android:text="PWMB Enrollment" />
+        android:text="PWMB Enrollment"
+        android:layout_toRightOf="@+id/payRegularBttn"/>
 
-</LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/enrollmentTXT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
+        android:hint="Enrollment Id will be populated after Enrollment call"/>
+
+    <EditText
+        android:id="@+id/amountTXT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
+        android:layout_below="@+id/enrollmentTXT"
+        android:hint="Enter Amount"/>
+
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/amountTXT"
+        android:text="Perform Transaction" />
+
+
+
+</RelativeLayout>
